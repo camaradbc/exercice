@@ -1,6 +1,6 @@
 package test.exercice.exception;
 
-public class BadPathException extends Exception {
+public class BadPathException extends RuntimeException {
 	
 	private static final long serialVersionUID = 1L;
 
